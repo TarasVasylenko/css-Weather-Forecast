@@ -17,6 +17,7 @@ header{
 	margin: auto;
 	color: #fff;
 	font-size: 20px;
+	font-weight: 600;
 }
 
 ul{
@@ -31,8 +32,12 @@ ul{
 	border: 2px solid #fff;
 }
 
-ul:hover{
-	opacity: 0.8;
+ul:hover li{
+	opacity: 0.5;
+}
+
+ul li:hover{
+	opacity: 1.0;
 }
 
 li{
@@ -44,10 +49,18 @@ li{
 	vertical-align: top;
 }
 
+li:hover{
+	opacity: 1;
+}
+
 .elem1{
 	width: 50%;
 	height: 25%;
 	background: #3399CC;
+}
+
+.elem1:hover{
+	background: rgb(51, 153, 204, 0.9);
 }
 
 .elem2{
@@ -55,6 +68,7 @@ li{
 	height: 25%;
 	background: #33CCCC;
 }
+
 
 .elem3{
 	width: 25%;
@@ -116,7 +130,6 @@ li{
 	font-size: 16px;
 	padding-top: 15px;
 	padding-bottom: 5px;
-
 }
 
 .weather{
